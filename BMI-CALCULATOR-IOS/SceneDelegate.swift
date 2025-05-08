@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  BMI-CALCULATOR-IOS
+//  CalculadoraIMC
 //
-//  Created by Mañanas on 8/5/25.
+//  Created by Tardes on 10/12/24.
 //
 
 import UIKit
@@ -49,4 +49,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-

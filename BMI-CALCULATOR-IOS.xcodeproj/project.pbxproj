@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		6C82D2812DCCABF3008A7C09 /* BMI-CALCULATOR-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI-CALCULATOR-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C82D2812DCCABF3008A7C09 /* BMI-CALCULATOR-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "BMI-CALCULATOR-IOS.app"; path = "/Users/mananas/iosStudioProjects/BMI-CALCULATOR-IOS/build/Debug-iphoneos/BMI-CALCULATOR-IOS.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -29,6 +29,16 @@
 			path = "BMI-CALCULATOR-IOS";
 			sourceTree = "<group>";
 		};
+		6C82D2D12DCCBEF0008A7C09 /* CalculatorIMCTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CalculatorIMCTests;
+			sourceTree = "<group>";
+		};
+		6C82D2D32DCCC097008A7C09 /* CalculatorIMCUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CalculatorIMCUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,16 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				6C82D2832DCCABF3008A7C09 /* BMI-CALCULATOR-IOS */,
-				6C82D2822DCCABF3008A7C09 /* Products */,
+				6C82D2D12DCCBEF0008A7C09 /* CalculatorIMCTests */,
+				6C82D2D32DCCC097008A7C09 /* CalculatorIMCUITests */,
 			);
-			sourceTree = "<group>";
-		};
-		6C82D2822DCCABF3008A7C09 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6C82D2812DCCABF3008A7C09 /* BMI-CALCULATOR-IOS.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,6 +78,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6C82D2832DCCABF3008A7C09 /* BMI-CALCULATOR-IOS */,
+				6C82D2D12DCCBEF0008A7C09 /* CalculatorIMCTests */,
+				6C82D2D32DCCC097008A7C09 /* CalculatorIMCUITests */,
 			);
 			name = "BMI-CALCULATOR-IOS";
 			packageProductDependencies = (
@@ -108,7 +113,7 @@
 			mainGroup = 6C82D2782DCCABF3008A7C09;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6C82D2822DCCABF3008A7C09 /* Products */;
+			productRefGroup = 6C82D2782DCCABF3008A7C09;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
